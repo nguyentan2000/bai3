@@ -1,0 +1,17 @@
+1. npm init -y
+2. npm start => chay chuong trinh sau moi lan thay doi
+3. npm install --save-dev nodemon
+4. nodemon server =>chay chuong trinh 1 lan duy nhat
+5.   "scripts": {
+    "start":"node server",
+    "startDev":"nodemon server"
+     },
+     *nhan xet:
+     npm run start=node server => chay moi lan
+     npm run startDev=nodemon server => chay duy nhat 1 lan
+6. stop chuong trinh: ctrl+ c va go: y
+
+###
+1. npm install express 
+2. npm install ejs -save
+3. npm install mongoose -save
